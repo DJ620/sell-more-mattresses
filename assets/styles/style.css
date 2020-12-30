@@ -7,10 +7,34 @@ body {
 nav {
     margin-left: auto;
     margin-right: auto;
-    width: 95vw;
+    width: 90vw;
     max-width: 1600px;
 }
 
 nav a {
     color: black;
+}
+
+.section-header {
+    font-size: 40px;
+}
+
+.sub-heading {
+    font-size: 24px;
+}
+
+.sizing {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    max-width: 1600px;
+}
+
+.highlight {
+    background-color: #fcf686;
+    padding: 1px;
+}
+
+#twitter {
+    background-color: #536db3;
 }
