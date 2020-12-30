@@ -1,0 +1,16 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
+    max-width: 1600px;
+}
+
+nav a {
+    color: black;
+}
