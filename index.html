@@ -4,51 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sell More Mattresses</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-    <nav>
-        <div class="container-fluid">
-            <div class="row align-items-md-center d-flex justify-content-between mt-4">
-                <div class="col-1">
-                    <img src="assets/img/mattress-logo.png" alt="logo"3>
-                </div>
-                <div class="col-1">
-                    <a href="#services" class="ml-3">Services</a>
-                </div>
-                <div class="col-1">
-                    <a href="#testimonials">Testimonials</a>
-                </div>
-                <div class="col-1">
-                    <a href="#about" class="ml-3">About</a>
-                </div>
-                <div class="col-1">
-                    <a href="#contact">Contact</a>
-                </div>
-
-                <div class="col-3"></div>
-                
-                <div class="col-1">
-                    <a href=""><img src="assets/img/fb.png" alt="fb-logo"></a>
-                </div>
-                <div class="col-1">
-                    <a href=""><img src="assets/img/twitter.png" alt="twitter-logo"></a>
-                </div>
-                <div class="col-1">
-                    <a href=""><img src="assets/img/instagram.png" alt="instagram-logo"></a>
-                </div>
-                <div class="col-1">
-                    <a href=""><img src="assets/img/youtube.png" alt="youtube-logo"></a>
-                </div>    
-            </div>
+    <nav class="navbar navbar-expand-lg">
+        <img src="assets/img/mattress-logo.png" alt="logo" class="navbar-brand">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fas fa-bars p-3 border border-dark"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-md-auto flex-row d-md-flex">
+              <li class="nav-item">
+                  <a class="nav-link" href=""><img src="assets/img/fb.png" alt="fb-logo"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 mx-md-0" href=""><img src="assets/img/twitter.png" alt="twitter-logo"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-2 mr-md-0" href=""><img src="assets/img/instagram.png" alt="instagram-logo"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=""><img src="assets/img/youtube.png" alt="youtube-logo"></a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
     <main>
 
         <section id="landing" class="container mt-5 sizing">
             <div class="row align-items-center justify-content-between">
-                <div class="col-7 ml-4">
+                <div class="col-7">
                     <div class="row">
                         <p class="section-header font-weight-bold">Increase Your Mattress Sales With Us.</p>
                     </div>
@@ -56,79 +59,86 @@
                         <p>We specialize in using social media advertising to help increase the sales of mattresses for retail stores across the country. <span class="highlight">We will help you </span><span class="highlight font-weight-bold">Sell More Mattresses.</span></p>
                     </div>
                     <div class="row mt-3">
-                        <div class="col-4 ml-1">
-                            <p class="sub-heading font-weight-bold">Learn More!</p>
+                        <div class="col-4">
+                            <div class="row">
+                                <p class="sub-heading font-weight-bold">Learn More!</p>
+                            </div>
                         </div>
                         <div class="col-1">
-                            <img src="assets/img/arrow.png" alt="arrow" class="mt-3 ml-n5">
+                            <div class="row">
+                                <img src="assets/img/arrow.png" alt="arrow" class="mt-3 ml-n5">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-3">
                     <div class="row">
-                        <img src="assets/img/james-pic.png" alt="jamescluster" class="mx-auto">
+                        <img src="assets/img/james-pic.png" alt="jamescluster" class="ml-auto">
                     </div>
-                    <div class="row">
-                        <p class="font-weight-bold mx-auto">James Cluster</p>
-                    </div>
-                    <div class="row">
-                        <p class="font-weight-bold mx-auto mt-n4">CEO</p>
+                    <div class="ml-1">
+                        <div class="row ml-1">
+                            <p class="font-weight-bold mx-auto">James Cluster</p>
+                        </div>
+                        <div class="row ml-1">
+                            <p class="font-weight-bold mx-auto mt-n4">CEO</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="twitter" class="mt-5 py-5 blue-bg">
-            <div class="container sizing">
-                <div class="row align-items-center d-flex justify-content-between">
-                    <div class="col-6 ml-4">
-                        <a class="twitter-timeline round" data-height="225" data-theme="light" href="https://twitter.com/djhershwebdev?ref_src=twsrc%5Etfw">Tweets by SellMorMattress</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div class="container my-5 sizing">
+                <div class="row align-items-center d-flex justify-content-between my-5">
+                    <div class="col-6">
+                        <div class="row d-flex justify-content-start">
+                            <a class="twitter-timeline round" data-height="225" data-theme="light" href="https://twitter.com/SellMorMattress?ref_src=twsrc%5Etfw">Tweets by SellMorMattress</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
                     </div>
                     <div class="col-1"></div>
-                    <div class="col-4">
-                        <p class="section-header font-weight-bold text-white mx-auto">Check us out on Twitter for news and tips!</p>
+                    <div class="col-5">
+                        <p class="section-header font-weight-bold text-white ml-4 mr-n3">Check us out on Twitter for news and tips!</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="services" class="py-5">
-            <div class="container sizing">
+            <div class="container sizing my-5">
                 <div class="row d-flex justify-content-start">
                     <p class="section-header font-weight-bold">What We Do</p>
                 </div>
-                <div class="row ">
+                <div class="row">
                     <div class="col-7">
                         <p class="text-left ml-n3"><span class="font-weight-bold">We will create a personalized strategy for your store</span> and help you execute it. Here will be another two sentences or so with a brief description of how your business strategies work. Here is the final sentence with just enough info to understand it.</p>
-                        <a href="#contact" class="btn btn-lg btn-yellow font-weight-bold px-5 py-3 ml-n3">Setup a Call</a>
+                        <a href="#contact" class="btn btn-lg btn-yellow font-weight-bold px-5 py-3 mt-4 ml-n3">Setup a Call</a>
                     </div>
-                    <div class="col-2"></div>
-                    <div class="col-3">
-                        <a href=""><img src="assets/img/video-link.png" alt="video-still"></a>
-                        <p class="small">Watch our free videos on YouTube!</p>
+                    <div class="col-5">
+                        <div class="row d-flex justify-content-end">
+                            <a href=""><img src="assets/img/video-link.png" alt="video-still" class="img-fluid"></a>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <p>Watch our free videos on YouTube!</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="yt-pod" class="py-5 blue-bg">
-            <div class="container sizing">
-                <div class="row align-items-center my-4">
-                    <div class="col-5 pt-5 pb-2 px-2 bg-white round">
-                        <p class="sub-heading font-weight-bold text-center">YouTube Link</p>
-                        <p class="sub-heading font-weight-bold text-center mt-n4">(still need to figure this out)</p>
-                    </div>
-                    <div class="col-2"></div>
-                    <div class="col-5 pt-5 pb-2 px-2 bg-white round">
-                        <p class="sub-heading font-weight-bold text-center">Podcast Link</p>
-                        <p class="sub-heading font-weight-bold text-center mt-n4">(still need to figure this out)</p>
-                    </div>
+            <div class="container sizing my-5">
+                <div class="row">
+                    <p class="section-header font-weight-bold text-white">You can also watch out YouTube videos and listen to our Podcast for tips!</p>
+                </div>
+                <div class="row">
+                    <a href=""><img src="assets/img/youtube.png" alt="youtube-logo"></a>
+                    <a href=""><img src="assets/img/podcast.png" alt="podcast-logo" class="ml-4"></a>
                 </div>
             </div>
         </section>
 
         <section id="testimonials" class="py-5">
-            <div class="container sizing">
+            <div class="container sizing my-5">
                 <div class="row mb-4">
                     <p class="section-header font-weight-bold">Store Owners We Helped</p>
                 </div>
@@ -137,7 +147,7 @@
                         <img src="assets/img/testimonial1.png" alt="AJ" class="ml-n3">
                     </div>
                     <div class="col-9 py-3 px-5 blue2 round">
-                        <p class="sub-heading mx-auto">"Quote goes here from video about how great it was."</p>
+                        <p class="sub-heading mx-auto mt-3">"Quote goes here from video about how great it was."</p>
                         <p class="sub-heading font-weight-bold mx-auto mt-n3">AJ</p>
                         <p class="sub-heading mx-auto mt-n3">Grand Haven, Michigan</p>
                     </div>
@@ -147,7 +157,7 @@
                         <img src="assets/img/testimonial2.png" alt="James" class="ml-n3">
                     </div>
                     <div class="col-9 py-3 px-5 blue2 round">
-                        <p class="sub-heading mx-auto">"Quote goes here from video about how great it was."</p>
+                        <p class="sub-heading mx-auto mt-3">"Quote goes here from video about how great it was."</p>
                         <p class="sub-heading font-weight-bold mx-auto mt-n3">James</p>
                         <p class="sub-heading mx-auto mt-n3">Central Illinois</p>
                     </div>
@@ -156,7 +166,7 @@
         </section>
 
         <section id="about" class="py-5 blue-bg">
-            <div class="container sizing">
+            <div class="container sizing my-5">
                 <div class="row mb-4">
                     <p class="section-header font-weight-bold text-white">About Our Team</p>
                 </div>
@@ -204,7 +214,7 @@
         </section>
 
         <section id="contact" class="py-5">
-            <div class="container sizing">
+            <div class="container sizing my-5">
                 <div class="row">
                     <p class="section-header font-weight-bold">Let's Get Started</p>
                 </div>

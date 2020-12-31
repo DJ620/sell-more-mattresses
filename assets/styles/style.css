@@ -7,7 +7,7 @@ body {
 nav {
     margin-left: auto;
     margin-right: auto;
-    width: 90vw;
+    width: 75vw;
     max-width: 1200px;
 }
 
@@ -52,10 +52,6 @@ nav a {
 
 .btn-yellow:hover {
     background-color:#dcd778;
-}
-
-.small {
-    font-size: 16.3px;
 }
 
 .blue2 {
