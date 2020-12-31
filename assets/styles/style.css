@@ -27,7 +27,7 @@ nav a {
     margin-left: auto;
     margin-right: auto;
     width: 70vw;
-    max-width: 1600px;
+    max-width: 1265px;
 }
 
 .highlight {
@@ -35,6 +35,39 @@ nav a {
     padding: 1px;
 }
 
-#twitter {
+.blue-bg {
     background-color: #536db3;
+}
+
+.round, .twitter-timeline {
+    border-radius: 35px;
+}
+
+.btn-yellow {
+    background-color: #fcf686;
+    border-radius: 25px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.btn-yellow:hover {
+    background-color:#dcd778;
+}
+
+.blue2 {
+    background-color: #B4BEDF;
+}
+
+.resize {
+    transform: scale(.7);
+}
+
+.contact {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
 }
