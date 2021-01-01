@@ -2,6 +2,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
+    /* background: url("https://st2.depositphotos.com/4371877/8062/v/600/depositphotos_80620102-stock-illustration-mattress-seamless-pattern-design.jpg"); */
 }
 
 nav {
@@ -92,5 +93,15 @@ footer {
 
     #btn-size {
         width: 60vw;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .sub-heading {
+        font-size: 18px;
     }
 }
