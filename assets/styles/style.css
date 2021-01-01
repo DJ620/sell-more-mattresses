@@ -7,12 +7,13 @@ body {
 nav {
     margin-left: auto;
     margin-right: auto;
-    width: 75vw;
-    max-width: 1200px;
+    width: 90vw;
+    max-width: 1300px;
 }
 
 nav a {
     color: black;
+    font-weight: 600;
 }
 
 .section-header {
@@ -70,4 +71,22 @@ nav a {
 footer {
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 991.98px) {
+    #headshot {
+        display: none;
+    }
+
+    .sizing {
+        width: 85vw;
+    }
+
+    .twitter-timeline {
+        margin-right: 3.75vw;
+    }
+
+    #btn-size {
+        width: 60vw;
+    }
 }
