@@ -36,6 +36,10 @@ nav a {
     padding: 1px;
 }
 
+.shadow {
+    box-shadow: 2px 2px 5px black;
+}
+
 .blue-bg {
     background-color: #536db3;
 }
