@@ -1,7 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
     /* background: url("https://st2.depositphotos.com/4371877/8062/v/600/depositphotos_80620102-stock-illustration-mattress-seamless-pattern-design.jpg"); */
 }
 
@@ -35,10 +40,6 @@ nav a {
 .highlight {
     background-color: #fcf686;
     padding: 1px;
-}
-
-.shadow {
-    box-shadow: 2px 2px 5px black;
 }
 
 .blue-bg {
