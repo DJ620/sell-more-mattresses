@@ -95,6 +95,10 @@ footer {
     #btn-size {
         width: 60vw;
     }
+
+    #yt-big {
+        margin-bottom: 35px;
+    }
 }
 
 @media (max-width: 768px) {
