@@ -7,6 +7,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -206,57 +207,58 @@
                 <div class="row">
                     <p>Contact us today to setup a call so we can help you generate more sales for your mattress store. Fill out the form below and we will be in touch with you within 24 hours.</p>
                 </div>
-                <form class="mt-4">
+                <form id="contact-form" class="mt-4">
+                    <input type="hidden" name="contact_number">
                     <div class="row">
                         <div class="col-lg-5">
                             <div class="row">
-                                <label for="nameInput">Name</label>
+                                <label for="user_name">Name</label>
                             </div>
                             <div class="row">
-                                <input type="text" name="nameInput" id="nameInput" class="contact form-control">
+                                <input type="text" name="user_name" id="nameInput" class="contact form-control">
                             </div>
                         </div>
                         <div class="col-lg-1"></div>
                         <div class="col-lg-5">
                             <div class="row mt-4 mt-lg-0">
-                                <label for="emailInput">Email Address</label>
+                                <label for="user_email">Email Address</label>
                             </div>
                             <div class="row">
-                                <input type="email" name="emailInput" id="emailInput" class="contact form-control">
+                                <input type="email" name="user_email" id="emailInput" class="contact form-control">
                             </div>
                         </div>
                     </div>
                     <div class="row mt-4">
                         <div class="col-lg-5">
                             <div class="row">
-                                <label for="numberInput">Phone Number</label>
+                                <label for="user_number">Phone Number</label>
                             </div>
                             <div class="row">
-                                <input type="tel" name="numberInput" id="numberInput" class="contact form-control">
+                                <input type="tel" name="user_number" id="numberInput" class="contact form-control">
                             </div>
                         </div>
                         <div class="col-lg-1"></div>
                         <div class="col-lg-5">
                             <div class="row mt-4 mt-lg-0">
-                                <label for="timeInput">Best time to call?</label>
+                                <label for="user_time">Best time to call?</label>
                             </div>
                             <div class="row">
-                                <input type="text" name="timeInput" id="timeInput" class="contact form-control">
+                                <input type="text" name="user_time" id="timeInput" class="contact form-control">
                             </div>
                         </div>
                     </div>
                     <div class="row mt-4">
                         <div class="col-lg-8">
                             <div class="row">
-                                <label for="aboutInput">Tell us a little about yourself and your store.</label>
+                                <label for="about_user">Tell us a little about yourself and your store.</label>
                             </div>
                             <div class="row">
-                                <textarea rows="5" name="aboutInput" id="aboutInput" class="contact form-control"></textarea>
+                                <textarea rows="5" name="about_user" id="aboutInput" class="contact form-control"></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="row mt-4 mb-5">
-                        <button type="submit" class="btn btn-lg btn-yellow font-weight-bold px-5 py-3" id="btn-size">Send</button>
+                        <button type="submit" value="send" class="btn btn-lg btn-yellow font-weight-bold px-5 py-3" id="btn-size">Send</button>
                     </div>
                 </form>
                 <!-- James@movemoremattresses.com -->
@@ -292,5 +294,6 @@
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
